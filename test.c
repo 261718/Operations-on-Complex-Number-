@@ -6,4 +6,4 @@ int main()
     scanf("%d",&x);
     printf("The number is %d\n",x);
     return 0;
-}
+    }
