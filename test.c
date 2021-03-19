@@ -5,5 +5,7 @@ int main()
     printf("enter a number");
     scanf("%d",&x);
     printf("The number is %d\n",x);
+
+    
     return 0;
     }
