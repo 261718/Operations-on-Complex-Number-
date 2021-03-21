@@ -27,7 +27,7 @@ int main() {
     printf("Sum = %.1f + %.1fi\n", result.real, result.imag);
     printf("sub = %.1f + %.1fi\n", result1.real, result1.imag);
     printf("mul = %.1f + %.1fi\n", result2.real, result2.imag);
-    printf("div = %.1f + %.1fi", result2.real, result2.imag);
+   // printf("div = %.1f + %.1fi", result2.real, result2.imag);
     return 0;
 
 
