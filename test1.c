@@ -18,6 +18,7 @@ int main() {
     scanf("%f %f", &n2.real, &n2.imag);
 
     result = add(n1, n2);
+    
     result1 = sub(n1, n2);
     result2 = mul(n1, n2);
     result3 = div(n1, n2);
@@ -28,6 +29,8 @@ int main() {
     printf("mul = %.1f + %.1fi\n", result2.real, result2.imag);
     printf("div = %.1f + %.1fi", result2.real, result2.imag);
     return 0;
+
+
 }
 
 complex add(complex n1, complex n2) {
